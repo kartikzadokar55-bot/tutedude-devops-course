@@ -1,26 +1,40 @@
-# Tutedude DevOps Course
+# 🚀 Tutedude DevOps Course
 
-This repository contains my notes, assignments, scripts, and projects completed while learning DevOps through the Tutedude DevOps & Cloud Course.
+Welcome to my DevOps learning journey.
 
-## Modules
+This repository contains:
+
+- 📘 Notes
+- 💻 Practice Scripts
+- 📄 Assignments
+- ❓ Interview Questions
+- 🚀 Mini Projects
+
+---
+
+## Completed Modules
 
 - ✅ Module 1 - Introduction to DevOps
 - ✅ Module 2 - Cloud Computing
 - ✅ Module 3 - Linux Basics
-- ⏳ Module 4 - Git
-- ⏳ Module 5 - Docker
-- ⏳ Module 6 - Kubernetes
-- ⏳ Projects
 
-## Skills
+---
 
-- Linux
-- Git & GitHub
+## Upcoming Modules
+
+- Git
 - Docker
 - Kubernetes
+- Jenkins
 - AWS
 - CI/CD
-- DevOps
+- Projects
+
+---
+
+## Goal
+
+To become a Cloud & DevOps Engineer by building real-world projects and documenting my learning.
 
 ## Author
 
