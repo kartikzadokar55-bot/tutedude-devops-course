@@ -1,16 +1,30 @@
-# Module 2 - Cloud Computing
+# ☁️ Module 2 - Cloud Computing
 
-## Topics Covered
+## 📖 Overview
 
-- Cloud Computing
-- IaaS
-- PaaS
-- SaaS
-- Public Cloud
-- Private Cloud
-- Hybrid Cloud
-- Benefits of Cloud
+This module introduces the fundamentals of Cloud Computing, including cloud service models, deployment models, virtualization, and the benefits of cloud technologies.
 
-## Status
+---
 
-✅ Completed
+## 📚 Topics Covered
+
+- What is Cloud Computing?
+- Why Cloud Computing?
+- Characteristics of Cloud Computing
+- Service Models (IaaS, PaaS, SaaS)
+- Deployment Models
+- Virtualization
+- Cloud Providers
+
+---
+
+## 📁 Folder Structure
+
+- Notes
+- Interview-Questions
+
+---
+
+## ✅ Module Status
+
+Completed ✔️
