@@ -1,78 +1,62 @@
 # Cloud Computing Interview Questions
 
-## 1. What is Cloud Computing?
+## What is Cloud Computing?
 
-Cloud Computing is the delivery of computing resources over the Internet on demand.
+Cloud Computing is the delivery of IT resources over the internet on demand.
 
 ---
 
-## 2. What are the advantages of Cloud Computing?
+## What are the advantages of Cloud?
 
-- Cost savings
+- Cost Saving
 - Scalability
-- High availability
-- Flexibility
-- Global accessibility
+- High Availability
+- Security
+- Global Access
 
 ---
 
-## 3. Explain IaaS.
+## Explain IaaS.
 
 Infrastructure as a Service provides virtual machines, networking, and storage.
 
 Example:
-Azure Virtual Machines.
+Azure Virtual Machines
 
 ---
 
-## 4. Explain PaaS.
+## Explain PaaS.
 
 Platform as a Service provides a platform to build and deploy applications.
 
 Example:
-Azure App Service.
+Azure App Service
 
 ---
 
-## 5. Explain SaaS.
+## Explain SaaS.
 
-Software as a Service provides ready-to-use software over the internet.
+Software as a Service provides ready-to-use applications.
 
 Example:
-Microsoft 365.
+Microsoft 365
 
 ---
 
-## 6. Difference between Public and Private Cloud?
+## Difference between Public and Private Cloud?
 
-Public Cloud:
-Shared infrastructure managed by cloud providers.
+Public Cloud is shared.
 
-Private Cloud:
-Dedicated infrastructure for a single organization.
+Private Cloud is dedicated to one organization.
 
 ---
 
-## 7. What is Hybrid Cloud?
+## What is Hybrid Cloud?
 
-Hybrid Cloud combines Public Cloud and Private Cloud.
-
----
-
-## 8. What is Virtualization?
-
-Virtualization is the process of creating multiple virtual machines on a single physical server.
+Combination of Public and Private Cloud.
 
 ---
 
-## 9. Name three major Cloud providers.
+## What is Virtualization?
 
-- Microsoft Azure
-- AWS
-- Google Cloud Platform
-
----
-
-## 10. Which cloud platform are you focusing on?
-
-I am primarily focusing on Microsoft Azure while also learning AWS fundamentals to understand multi-cloud concepts.
+Creating multiple virtual machines on one physical server.

@@ -1,133 +1,118 @@
 # ☁️ Cloud Computing Notes
 
----
+## What is Cloud Computing?
 
-# What is Cloud Computing?
+Cloud Computing means delivering IT resources over the internet instead of owning and maintaining physical servers.
 
-Cloud Computing is the delivery of computing services such as servers, storage, databases, networking, software, and analytics over the Internet.
-
-Instead of buying physical servers, users can access computing resources on demand.
-
----
-
-# Why Cloud Computing?
-
-Traditional infrastructure requires purchasing and maintaining hardware.
-
-Cloud Computing allows organizations to:
-
-- Pay only for what they use
-- Scale resources easily
-- Access services from anywhere
-- Reduce infrastructure costs
+Example:
+Instead of buying a computer server, you can rent one from Azure or AWS.
 
 ---
 
-# Characteristics of Cloud Computing
+## Why Cloud Computing?
 
-- On-demand self-service
-- Broad network access
-- Resource pooling
-- Rapid elasticity
-- Measured service
+Traditional Infrastructure
+
+- Buy hardware
+- Maintain servers
+- High cost
+- Difficult to scale
+
+Cloud Computing
+
+- Pay only for what you use
+- Scale resources quickly
+- High availability
+- Accessible from anywhere
 
 ---
 
-# Service Models
+## Characteristics
 
-## IaaS (Infrastructure as a Service)
+- On-demand Self Service
+- Broad Network Access
+- Resource Pooling
+- Rapid Elasticity
+- Measured Service
 
-Provides virtual machines, networking, storage, and operating systems.
+---
+
+## Service Models
+
+### IaaS
+
+Infrastructure only.
 
 Examples:
 - Azure Virtual Machines
 - Amazon EC2
-- Google Compute Engine
 
-User manages:
-- OS
+Customer manages:
+- Operating System
 - Applications
-- Runtime
 - Data
 
-Provider manages:
-- Hardware
-- Networking
+Cloud Provider manages:
+- Physical Servers
 - Storage
+- Networking
 
 ---
 
-## PaaS (Platform as a Service)
+### PaaS
 
-Provides a platform to develop and deploy applications.
+Platform to develop applications.
 
 Examples:
 - Azure App Service
-- Google App Engine
-- AWS Elastic Beanstalk
+- Azure Functions
 
-User manages:
+Customer manages:
 - Application
 - Data
 
-Provider manages:
-- Infrastructure
+Cloud Provider manages:
 - Runtime
-- OS
+- Operating System
+- Infrastructure
 
 ---
 
-## SaaS (Software as a Service)
+### SaaS
 
-Provides ready-to-use software over the internet.
+Ready-to-use software.
 
 Examples:
+
 - Gmail
 - Microsoft 365
 - Salesforce
-- Dropbox
 
-Users only consume the application.
-
----
-
-# Deployment Models
-
-## Public Cloud
-
-Infrastructure is owned by a cloud provider.
-
-Examples:
-- Azure
-- AWS
-- Google Cloud
+Customer simply uses the application.
 
 ---
 
-## Private Cloud
+## Deployment Models
 
-Infrastructure is dedicated to one organization.
+Public Cloud
 
-Advantages:
-- High security
-- Greater control
+Owned by cloud providers.
 
----
+Private Cloud
 
-## Hybrid Cloud
+Owned by one organization.
+
+Hybrid Cloud
 
 Combination of Public and Private Cloud.
 
-Example:
-Sensitive data remains on-premises while applications run in Azure.
-
 ---
 
-# Virtualization
+## Virtualization
 
-Virtualization allows multiple virtual machines to run on a single physical server.
+Virtualization allows multiple Virtual Machines to run on one physical server.
 
-Benefits:
+Benefits
 
 - Better resource utilization
 - Lower cost
@@ -135,18 +120,8 @@ Benefits:
 
 ---
 
-# Major Cloud Providers
+## Popular Cloud Providers
 
 - Microsoft Azure
-- Amazon Web Services (AWS)
-- Google Cloud Platform (GCP)
-
----
-
-# Key Takeaways
-
-- Cloud Computing provides resources over the Internet.
-- IaaS gives infrastructure.
-- PaaS gives a development platform.
-- SaaS provides ready-to-use software.
-- Azure, AWS, and GCP are the leading cloud providers.
+- Amazon Web Services
+- Google Cloud Platform
