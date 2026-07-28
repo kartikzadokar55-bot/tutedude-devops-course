@@ -1,53 +1,35 @@
-# Module 3 - Linux Basics
+# 🐧 Module 3 - Linux
+
+## Overview
+
+Linux is the most widely used operating system in cloud computing and DevOps. Most production servers run Linux, making it an essential skill for DevOps Engineers.
+
+---
 
 ## Topics Covered
 
-- Linux Introduction
 - Linux File System
-- pwd
-- ls
-- cd
-- mkdir
-- touch
-- cp
-- mv
-- rm
-- cat
-- head
-- tail
-- grep
-- zip
-- unzip
-- wget
-- chmod
-- Environment Variables
+- File & Directory Management
+- Permissions
+- Users & Groups
+- Process Management
+- Networking Commands
+- Shell Basics
+- Bash Scripting
 
 ---
 
-## Commands Practiced
+## Hands-On
 
-- pwd
-- ls
-- mkdir
-- touch
-- cp
-- mv
-- rm
-- cat
-- grep
-- zip
-- unzip
-- chmod
-- export
+- File Management
+- Permission Management
+- Process Monitoring
+- Networking Commands
+- User Management
+- Bash Scripts
 
 ---
 
-## Assignment
+## Module Status
 
-Completed ✔
-
----
-
-## Status
-
-🟢 Completed
+✅ Completed
