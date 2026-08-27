@@ -556,3 +556,223 @@ Example:
 ```bash
 Documents/file.txt
 ```
+
+# Linux Interview Questions (Part 3)
+
+## 31. What is systemctl?
+
+`systemctl` is a command used to manage services controlled by systemd.
+
+Common commands:
+
+systemctl status nginx
+systemctl start nginx
+systemctl stop nginx
+systemctl restart nginx
+systemctl enable nginx
+
+---
+
+## 32. What is systemd?
+
+systemd is the initialization and service management system used by many modern Linux distributions.
+
+It is responsible for starting services and managing system processes during boot.
+
+---
+
+## 33. How do you check whether a service is running?
+
+Use:
+
+systemctl status <service-name>
+
+Example:
+
+systemctl status ssh
+
+---
+
+## 34. What is cron?
+
+Cron is a Linux utility used to schedule tasks to run automatically at specified times.
+
+Examples:
+
+- Backups
+- Log cleanup
+- Monitoring scripts
+- Reports
+
+---
+
+## 35. What is crontab?
+
+`crontab` is used to create and manage scheduled cron jobs.
+
+View existing jobs:
+
+crontab -l
+
+Edit jobs:
+
+crontab -e
+
+---
+
+## 36. Explain the Linux file system hierarchy.
+
+Important directories include:
+
+/        → Root directory
+/home    → User home directories
+/etc     → Configuration files
+/var     → Variable data and logs
+/tmp     → Temporary files
+/usr     → User programs and libraries
+/opt     → Optional software
+/dev     → Device files
+/proc    → Process and kernel information
+
+---
+
+## 37. What is the difference between df and du?
+
+`df` shows available and used disk space of file systems.
+
+Example:
+
+df -h
+
+`du` shows the disk space used by files and directories.
+
+Example:
+
+du -sh /var/log
+
+---
+
+## 38. How do you check memory usage in Linux?
+
+Common commands:
+
+free -h
+top
+htop
+
+`free -h` provides a quick overview of memory usage.
+
+---
+
+## 39. How do you check CPU usage?
+
+Common commands:
+
+top
+htop
+uptime
+
+`top` provides real-time information about CPU and processes.
+
+---
+
+## 40. How do you check network connectivity?
+
+The `ping` command can be used to test connectivity to a host.
+
+Example:
+
+ping google.com
+
+---
+
+## 41. What is the difference between curl and wget?
+
+`curl` is commonly used to transfer data and interact with URLs and APIs.
+
+Example:
+
+curl https://example.com
+
+`wget` is commonly used to download files from the internet.
+
+Example:
+
+wget https://example.com/file.txt
+
+---
+
+## 42. What is the ss command?
+
+`ss` is used to display network sockets and connections.
+
+Example:
+
+ss -tuln
+
+This can show listening TCP and UDP ports.
+
+---
+
+## 43. Where are Linux logs stored?
+
+Many Linux systems store logs under:
+
+/var/log
+
+Examples:
+
+/var/log/syslog
+/var/log/auth.log
+
+The exact log files depend on the Linux distribution and logging configuration.
+
+---
+
+## 44. What is tar?
+
+`tar` is used to create and extract archive files.
+
+Create an archive:
+
+tar -cvf backup.tar directory/
+
+Extract an archive:
+
+tar -xvf backup.tar
+
+For gzip compression:
+
+tar -czvf backup.tar.gz directory/
+
+Extract:
+
+tar -xzvf backup.tar.gz
+
+---
+
+## 45. How would you troubleshoot a server with high disk usage?
+
+A possible approach:
+
+1. Check overall disk usage:
+
+df -h
+
+2. Identify large directories:
+
+du -sh /*
+
+3. Investigate the directory consuming the most space.
+
+4. Check log files under /var/log.
+
+5. Remove unnecessary files only after confirming they are safe to delete.
+
+6. Check whether an application is continuously generating large log files.
+
+7. Verify disk usage again using:
+
+df -h
+
+The important point is to investigate the cause before deleting files.
